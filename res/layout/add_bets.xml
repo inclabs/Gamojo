@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+              android:orientation = "vertical"
+              android:layout_width = "match_parent"
+              android:layout_height = "match_parent">
+    <EditText android:layout_width = "fill_parent"
+              android:hint = "Bet Statement"
+              android:id="@+id/betStatement"
+              android:layout_height = "wrap_content"/>
+    <EditText android:layout_width = "fill_parent"
+              android:hint = "Nums of Positive Bets"
+              android:id="@+id/numPos"
+              android:layout_height = "wrap_content"/>
+    <EditText android:layout_width = "fill_parent"
+              android:hint = "Nums of Negative Bets"
+              android:id="@+id/numNeg"
+              android:layout_height = "wrap_content"/>
+    <EditText android:layout_width = "fill_parent"
+              android:hint = "Total Bets"
+              android:id="@+id/totalBets"
+              android:layout_height = "wrap_content"/>
+    <Button android:layout_width = "100dp"
+            android:text = "Submit"
+            android:id="@+id/submitBets"
+            android:layout_height = "wrap_content"/>
+</LinearLayout>

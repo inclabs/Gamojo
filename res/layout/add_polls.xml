@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+              android:orientation = "vertical"
+              android:layout_width = "match_parent"
+              android:layout_height = "match_parent">
+    <EditText android:layout_width = "fill_parent"
+              android:hint = "Enter the Poll Statement"
+              android:id = "@+id/pollStatement"
+              android:layout_height = "wrap_content"/>
+    <EditText android:layout_width = "fill_parent"
+              android:hint = "Nums of Yes"
+              android:id = "@+id/numYes"
+              android:layout_height = "wrap_content"/>
+    <EditText android:layout_width = "fill_parent"
+              android:hint = "Nums of No"
+              android:id = "@+id/numNo"
+              android:layout_height = "wrap_content"/>
+    <Button android:layout_width = "100dp"
+            android:text = "Submit"
+            android:id = "@+id/pollSubmit"
+            android:layout_height = "wrap_content"/>
+
+</LinearLayout>
